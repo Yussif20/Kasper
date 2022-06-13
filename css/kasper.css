@@ -767,4 +767,14 @@ header .form i {
   position: relative;
   right: -15px;
 }
+.pricing .plans .plan ul {
+  border-bottom: 1px solid var(--main-color);
+}
+.pricing .plans .plan ul li {
+  padding: 20px;
+  position: relative;
+}
+.pricing .plans .plan ul li:not(:last-child)::after {
+  content: "";
+}
 /* end pricing */
